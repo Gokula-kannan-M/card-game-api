@@ -5,6 +5,7 @@ body {
     font-weight: bold;
     color: white;
     text-align: center;
+    position: relative;
 }
 
 h1 {
@@ -26,4 +27,18 @@ button {
     border-radius: 2px;
     margin-bottom: 2px;
     margin-top: 2px;
+}
+
+/* 🎯 Target Box Styling */
+#target-box {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: yellow;
+    color: black;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
